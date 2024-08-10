@@ -1,0 +1,14 @@
+
+
+
+
+
+ El servidor envía un objeto
+  Universidad al cliente, y el cliente recibe y muestra la información contenida en ese objeto.
+
+  AppCliente: Gestiona la lógica del cliente.
+  AppServidor: Gestiona la lógica del servidor.
+  Facultad: Representa una facultad dentro de una universidad.
+  Universidad: Representa una universidad con una lista de facultades.
+  MainCliente: Clase principal para iniciar el cliente.
+  MainServidor: Clase principal para iniciar el servidor.

@@ -1,0 +1,25 @@
+
+
+
+
+Implemente un programa en java que use hilos.
+Crear 3 hilos propios productores (p1, p2 y p3)  que lanzan caracteres de un arreglo.
+
+El arreglo va a estar conformado por letras del abecedario en minúsculas (a-z) y números(0-9).
+
+P1 lanza solo vocales y debe esperar 500 milisegundos para enviar la siguiente vocal.
+P2 lanza consonantes y debe esperar 1000 milisegundos para enviar la siguiente letra.
+P3 lanza números de 1 a 9 y debe esperar 2000 milisegundos para enviar el siguiente número.
+
+Dichas letras se envían a un buffer con un tamaño de 12 caracteres.
+
+El hilo (Consumidor) consume estas letras del buffer con el fin de crear en un arreglo la
+palabra “uniquindio2023”. El hilo consumidor recoge 2 caracteres a la vez y se detiene por
+500 milisegundos.
+
+El hilo consumidor debe verificar si la letra hace parte de la palabra, si hace parte la agrega en la posición del arreglo correspondiente “uniquindio2023”, en caso contrario debe consumir la letra y agregarla a una lista auxiliar (ArrayList) que va a contener las letras que no hacen parte de la palabra a formar.
+Cuando se haya armado la palabra en el arreglo termina la ejecución de los hilos, es decir
+se debe verificar que la palabra esté completa.
+
+Mostrar por consola el arreglo con la palabra formada y mostrar la lista con las letras que
+no hacen parte del arreglo

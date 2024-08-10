@@ -1,0 +1,24 @@
+
+
+
+En esta aplicación el cliente se conecta al servidor, para ello debe introducir
+la dirección IP del servidor(localhost),
+
+el puerto y los parámetros necesarios sobre
+los cuales el servidor debe hacer las operaciones.
+
+Una vez conectado con el servidor este
+toma los parámetros y realiza las operaciones y los imprime por consola. Posteriormente
+envía los resultados al cliente, el cual también los imprime por consola.
+
+Operaciones a realizar en el servidor:
+
+- Hallar la cantidad de dígitos de un número entero de forma recursiva.
+
+ Por ejemplo 3245 es de 4 cifras.
+- Calcular el número de vocales y consonantes de una cadena de forma recursiva.
+
+Por ejemplo “Uniquindio”, tiene 6 vocales y 4 consonantes.
+
+Nota: El desarrollo de este ejercicio lo pueden hacer por medio de interfaz
+gráfica o por consola.
